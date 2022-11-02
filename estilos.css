@@ -347,14 +347,14 @@ h1 {
 
 .container-img{
     width: 100%;
-    max-width: 1100px;
+    max-width: 990px;
     margin: auto;
     margin-top: 5px;
     margin-bottom: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 250px;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 .container-img .box-img figure{
     width: 100%;
@@ -404,11 +404,11 @@ h1 {
 
 }
 h2 {
-    color: hwb(0 0% 100%);
+    color: hwb(0 100% 0%);
     font-family: serif;
 }
 .sugerencia {
-    color:#000000;
+    color:#ffffff;
 }
 .container-form{
     width: 100%;
@@ -434,7 +434,7 @@ h2 {
     text-decoration: none;
     width: 100%;
     margin-bottom: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 700;
 }
 .container-form a i{
@@ -461,7 +461,7 @@ h2 {
     font-size: 16px;
     border: none;
     outline: 0px;
-    background: rgb(99, 75, 32);
+    background: rgb(112, 86, 36);
     color: white;
     border-radius: 3px;
     cursor: pointer;
